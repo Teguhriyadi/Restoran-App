@@ -12,6 +12,7 @@ return Application::configure(basePath: dirname(__DIR__))
             require __DIR__ . '/../routes/master-data/resep.php';
             require __DIR__ . '/../routes/master-data/resep-detail.php';
             require __DIR__ . '/../routes/app/dashboard.php';
+            require __DIR__ . '/../routes/authentication/login.php';
         },
         // web: __DIR__.'/../routes/web.php',
         commands: __DIR__.'/../routes/console.php',
